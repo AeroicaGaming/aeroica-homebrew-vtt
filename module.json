@@ -1,0 +1,79 @@
+{
+  "id": "aeroica-homebrew-vtt",
+  "name": "aeroica-homebrew-vtt",
+  "title": "Aeroica's Homebrew VTT",
+  "description": "<p align='center'><img src='https://raw.githubusercontent.com/AeroicaGaming/aeroica-homebrew-vtt/main/assets/2023%20STATIC%20LOGO%20.png' width='250'></p><p>A curated collection of homebrew magic items designed specifically for Foundry VTT. These items are automation-ready and organized for easy integration into your games.</p><p align='center'><a href='https://ko-fi.com/aeroicagaming'>\u2615 Support the project on Ko-fi</a></p>",
+  "version": "1.0.4",
+  "manifest": "https://raw.githubusercontent.com/AeroicaGaming/aeroica-homebrew-vtt/main/module.json",
+  "download": "https://github.com/AeroicaGaming/aeroica-homebrew-vtt/releases/download/v1.0.4/aeroica-homebrew-vtt.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "author": "Aeroica Gaming",
+  "authors": [
+    {
+      "name": "Aeroica Gaming",
+      "url": "https://github.com/AeroicaGaming"
+    }
+  ],
+  "url": "https://github.com/AeroicaGaming/aeroica-homebrew-vtt",
+  "bugs": "https://github.com/AeroicaGaming/aeroica-homebrew-vtt/issues",
+  "readme": "https://raw.githubusercontent.com/AeroicaGaming/aeroica-homebrew-vtt/main/README.md",
+  "changelog": "https://raw.githubusercontent.com/AeroicaGaming/aeroica-homebrew-vtt/main/CHANGELOG.md",
+  "packs": [
+    {
+      "name": "item-1-homebrew-items",
+      "label": "Homebrew Items",
+      "path": "packs/item-1-homebrew-items",
+      "type": "Item",
+      "package": "aeroica-homebrew-vtt"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Aeroica's Homebrew VTT",
+      "sorting": "m",
+      "color": "#3f8230",
+      "packs": [
+        "item-1-homebrew-items"
+      ]
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "midi-qol",
+        "type": "module"
+      },
+      {
+        "id": "dae",
+        "type": "module"
+      },
+      {
+        "id": "chris-premades",
+        "type": "module"
+      },
+      {
+        "id": "ActiveAuras",
+        "type": "module"
+      }
+    ],
+    "recommends": [
+      {
+        "id": "JB2A_DnD5e",
+        "type": "module"
+      },
+      {
+        "id": "jb2a_patreon",
+        "type": "module"
+      }
+    ]
+  }
+}
